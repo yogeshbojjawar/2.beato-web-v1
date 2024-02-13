@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test_001(failed)">
+    <classes>
+      <class name="com.BeatO.testCases.Tc_FreeGluco_001">
+        <methods>
+          <include name="freeglucolp1"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.BeatO.testCases.Tc_FreeGluco_001 -->
+    </classes>
+  </test> <!-- Test_001(failed) -->
+</suite> <!-- Failed suite [Suite] -->
